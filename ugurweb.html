@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Uğur Karaaslan - Kişisel Web Sitesi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1c1c1c;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      display: block;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .timeline ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .timeline li {
+      background: #e9f1f7;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-left: 5px solid #3498db;
+      border-radius: 4px;
+
+    }
+
+    .imgs {
+    
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px ;
+      margin-bottom: 15px;  
+    }
+
+
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="profil.jpg" alt="Uğur Karaaslan">
+    <h1>Uğur Karaaslan</h1>
+    <p>Mükemmel bir abi | Dövmeci | <3 </p>
+  </header>
+
+  <nav>
+    <a href="#anasayfa">Ana Sayfa</a>
+    <a href="#hakkinda">Hakkında</a>
+    <a href="#aile">Aile</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <div id="anasayfa" class="section">
+    <h2>Ana Sayfa</h2>
+    <p>Merhaba! Ben Uğur Karaaslan. Bu sayfada hayatımdan kesitlere, aileme ve bana ulaşabileceğiniz ve bu sayfayı açan kardeşimin iletişim bilgilerine ulaşabilirsiniz. </p>
+  </div>
+
+  <div id="hakkinda" class="section">
+    <h2>Hakkında</h2>
+    <p>2001.05.01'de İstanbulda doğmuşum. Doğmuşum diyorum çünkü benim işler biraz karışık.  </p>
+    <img src="bebek.jpg" class="imgs">
+    <img src="bebek1.jpg" class="imgs">
+    <img src="bebek4.jpg" class="imgs">
+    <img src="bebek2.jpg" class="imgs">
+    <img src="bebek3.jpg" class="imgs">
+
+
+    <div class="timeline">
+      <ul>
+        <li><strong>2018-2019:</strong> Lise Mezuniyeti - Sağmalcılar Anadolu Lisesi</li>
+        <img src="lise.jpg" class="imgs">
+          <img src="lise1.jpg" class="imgs">
+          <img src="lise2.jpg" class="imgs">
+        <li><strong>2019-2022:</strong> İstanbul Üni - Besyo, Gazi Üni - Patoloji </li>
+        <img src="uni.jpg" class="imgs">
+          <img src="uni1.jpg" class="imgs">
+          <img src="uni2.jpg" class="imgs">
+          <img src="uni3.jpg" class="imgs">
+        <li><strong>2022-2024:</strong> Farklı dalda bir çok iş.</li>
+        <li><strong>13.01.2025-∞:</strong> Kafamdaki sesleri susturamadım. Kaza sonucu melek oldum. </li>
+        <img src="mezar.jpg" class="imgs">
+      </ul>
+    </div>
+  </div>
+
+  <div id="aile" class="section">
+    <h2>Aile</h2>
+     <p> Aile bizim için sadece bir kavram değil; hayatın merkezi. Karışık  demiştim ya ben meğer canım annem ve canım babam ben 6 aylıkken beni kötü yerlerden çekip evlatlık almışlar. Onları çok seviyorum, benim tek ailem var ; Kardeşim, annem, babam. </p>
+     <img src="aile.jpg" class="imgs">
+    <img src="aile1.jpg" class="imgs">
+    <img src="aile2.jpg" class="imgs">
+    <img src="aile3.jpg" class="imgs">
+  </div>
+
+  <div id="iletisim" class="section">
+    <h2>İletişim</h2>
+    <p><strong> Bana ulaşabileceğiniz kardeşimin email adresi:</strong> gulkrsln2905@gmail.com</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Uğur Karaaslan. Tüm hakları saklıdır.</p>
+  </footer>
+
+</body>
+</html>
